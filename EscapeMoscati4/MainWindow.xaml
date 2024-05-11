@@ -12,14 +12,14 @@
             <RowDefinition Height="267*"/>
         </Grid.RowDefinitions>
         <Grid.Background>
-            <ImageBrush ImageSource="/Image1.png"/>
+            <ImageBrush ImageSource="/Immagine1.jpg"/>
         </Grid.Background>
-        <TextBox x:Name="Nome" HorizontalAlignment="Left" Margin="303,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201" Height="26" FontSize="14"/>
+        <TextBox x:Name="Nome" HorizontalAlignment="Left" Margin="303,142,0,0"  VerticalAlignment="Top" Width="204" Height="27" FontSize="14" Grid.RowSpan="2"/>
         <Label Content="Nome utente o email" HorizontalAlignment="Left" Margin="303,119,0,0" VerticalAlignment="Top" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="Password" HorizontalAlignment="Left" Margin="302,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="204" Height="28" Grid.Row="1"/>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Margin="303,35,0,0"  VerticalAlignment="Top" Width="204" Height="26" FontSize="14" Grid.Row="1"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="304,9,0,0" VerticalAlignment="Top" Foreground="#FFFDFDFD" Grid.Row="1"/>
-        <Label Content="Numero Partecipanti" HorizontalAlignment="Left" Margin="302,71,0,0" VerticalAlignment="Top" Foreground="#FFFDFDFD" Grid.Row="1"/>
-        <Button HorizontalAlignment="Left" Margin="305,99,0,0"  VerticalAlignment="Top" Width="199" Height="27" Content ="Accedi" RenderTransformOrigin="0.441,0.39" Grid.Row="1" Click="Button_Click"/>
+        <Button HorizontalAlignment="Left" Margin="329,97,0,0"  VerticalAlignment="Top" Width="156" Height="27" Content ="ACCEDI" RenderTransformOrigin="0.441,0.39" Grid.Row="1" Click="Button_Click" FontWeight="Bold" Foreground="#FF1A1A1A" Background="#FF8BA799"/>
+        <Button Content="password dimenticata" HorizontalAlignment="Left" Margin="393,55,0,0" Grid.Row="1" VerticalAlignment="Top" Height="27" FontSize="10" Foreground="White" FontWeight="Bold" Background="{x:Null}" Click="Button_Click_1" BorderBrush="{x:Null}"/>
 
     </Grid>
 </Window>

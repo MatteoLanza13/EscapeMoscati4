@@ -123,7 +123,7 @@ namespace EscapeMoscati4
 
         private void SuggBott_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Non ci sono suggeriemnti :(");
+            MessageBox.Show("Non ci sono suggeriemnti :(\nChiedi a quello affianco");
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <None Remove="Image1.png" />
+    <None Remove="Immagine1.jpg" />
     <None Remove="Successione 2.png" />
     <None Remove="Successione.png" />
     <None Remove="Triangolo.png" />
@@ -17,6 +18,7 @@
 
   <ItemGroup>
     <Resource Include="Image1.png" />
+    <Resource Include="Immagine1.jpg" />
     <Resource Include="Successione 2.png" />
     <Resource Include="Successione.png" />
     <Resource Include="Triangolo.png" />

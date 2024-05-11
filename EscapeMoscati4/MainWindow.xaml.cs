@@ -28,12 +28,16 @@ namespace EscapeMoscati4
         }
         private void Login()
         {
-            if (Nome.Text != "Mario") return;
-            if (Password.Text != "Rossi") return;
+            if (Nome.Text != "Mario") { MessageBox.Show("Nome utente sbagliato");return; };
+            if (Password.Password != "Rossi") { MessageBox.Show("Password sbagliata");return; };
             Window bo = new RispostaAperta();
             bo.Show();
 
         }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Nome: Mario, Password:Rossi");
+        }
     }
 }
